@@ -10,7 +10,7 @@ from PyPDF2.pdf import PdfFileReader, PdfFileWriter
 DIR_TO_WALK = ""    #Insert directory to walk here. For instance, if I wanted to walk all files in directory "Documents",
                     #I would set this to: "C:\Users\william\Documents"
 
-PAGE_TO_SPLIT = 0    #Change this number to the page you want extracted from the PDF
+PAGE_TO_SPLIT = 0    #Change this number to the page you want extracted from the PDF. Index numbering, so first page would be 0
 
 for root, dirs, files in os.walk(DIR_TO_WALK):
     for name in files:      
